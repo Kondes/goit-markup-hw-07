@@ -1,5 +1,5 @@
 .footer {
-  background: var(--background-color);
+  background: $background-color;
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -13,10 +13,10 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .footer-logo-second {
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 
 .navigation-list-link:not(:last-child) {
@@ -28,7 +28,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 
 .contacts {
@@ -37,7 +37,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--contacts-color);
+  color: $contacts-color;
 }
 .first-footer {
   display: flex;
@@ -57,7 +57,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--footer-hover-color);
+  color: $footer-hover-color;
 }
 .icon-footer {
   display: flex;
@@ -70,13 +70,13 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-footer:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .footer-svg {
   display: flex;
   width: 20px;
   height: 20px;
-  fill: var(--footer-hover-color);
+  fill: $footer-hover-color;
 }
 
 .icon-footer-list:not(:last-child) {
@@ -107,13 +107,13 @@
   margin-left: 12px;
   width: 200px;
   height: 50px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: $main-text-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: solid transparent;
@@ -126,12 +126,12 @@
   width: 358px;
   height: 50px;
   margin-top: 20px;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 .subscribe-mail input {
   padding: 15px;
   font-size: 16px;
-  background-color: var(--background-color);
+  background-color: $background-color;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -145,5 +145,5 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }

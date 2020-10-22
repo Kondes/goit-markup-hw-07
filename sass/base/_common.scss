@@ -6,8 +6,8 @@
   padding: 0;
 }
 body {
-  font-family: 'Roboto', sans-serif;
-  background: var(--main-text-color);
+  font-family: $main-font;
+  background: $main-text-color;
 }
 .list {
   list-style: none;

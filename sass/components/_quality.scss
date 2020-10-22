@@ -7,7 +7,7 @@
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--other-color);
+  background-color: $other-color;
 }
 .icon-group::before {
   background-image: url(../images/quality/Group.svg);
@@ -36,7 +36,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: $title-text-color;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -46,6 +46,6 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   width: 270px;
 }

@@ -4,7 +4,7 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/main/Overlay.jpg);
-  background-color: var(--logo-color);
+  background-color: $logo-color;
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
@@ -22,7 +22,7 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--main-text-color);
+  color: $main-text-color;
   width: 660px;
   margin: 0 auto;
 }
