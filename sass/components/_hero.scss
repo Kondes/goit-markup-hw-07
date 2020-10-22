@@ -1,0 +1,28 @@
+.overlay {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/main/Overlay.jpg);
+  background-color: var(--logo-color);
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+  width: 660px;
+  margin: 0 auto;
+}

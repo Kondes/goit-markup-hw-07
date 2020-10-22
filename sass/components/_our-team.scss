@@ -1,0 +1,83 @@
+.icon-list-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-list-team:hover .team-svg {
+  fill: var(--footer-hover-color);
+}
+.icon-list-team:hover {
+  background-color: var(--accent-color);
+}
+.team-svg {
+  fill: var(--svg-team-icon-color);
+  width: 20px;
+  height: 20px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list-icon-svg:not(:last-child) {
+  margin-right: 10px;
+}
+.jobs {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about-us {
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+.section-second {
+  background: var(--other-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.photo-border:not(:last-child) {
+  margin-right: 30px;
+}
+.photo-border {
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.list-photo {
+  display: flex;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.name {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: var(--footer-hover-color);
+}
+.team-profil {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}

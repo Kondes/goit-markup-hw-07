@@ -1,0 +1,39 @@
+.job-picture:not(:last-child) {
+  margin-right: 30px;
+}
+.job-picture {
+  position: relative;
+}
+
+.picture-list {
+  display: flex;
+  justify-content: space-between;
+}
+.kind-job-color {
+  background: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+}
+.kind-job {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  color: var(--main-text-color);
+}
+
+.about-us,
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
