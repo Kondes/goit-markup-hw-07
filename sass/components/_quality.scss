@@ -1,14 +1,17 @@
-.list-quality:not(:last-child) {
-  margin-right: 30px;
+.list-quality {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  &::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $other-color;
+  }
 }
-.list-quality::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: $other-color;
-}
+
 .icon-group::before {
   background-image: url(../images/quality/Group.svg);
 }

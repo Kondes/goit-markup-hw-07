@@ -1,8 +1,8 @@
-.job-picture:not(:last-child) {
-  margin-right: 30px;
-}
 .job-picture {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .picture-list {
