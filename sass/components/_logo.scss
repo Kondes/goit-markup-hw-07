@@ -4,10 +4,9 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
   margin-right: 93px;
-}
-
-.logo-second {
-  color: $logo-color;
+  &-second {
+    color: $logo-color;
+  }
 }
