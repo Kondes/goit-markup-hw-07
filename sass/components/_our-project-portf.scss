@@ -2,7 +2,6 @@
   padding-bottom: 94px;
   padding-top: 94px;
 }
-/*----MAIN-----*/
 
 .all-button {
   display: flex;
@@ -59,9 +58,6 @@
   }
 }
 
-.border:hover .second-overlay {
-  transform: translateX(0);
-}
 .list-hide {
   position: relative;
   overflow: hidden;
@@ -74,6 +70,9 @@
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .border:hover & {
+    transform: translateX(0);
+  }
 }
 
 .text-overlay {

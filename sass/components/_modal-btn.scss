@@ -104,11 +104,6 @@
   }
 }
 
-.modalfrm-input:focus + .modal-form-svg {
-  fill: $accent-color;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-form-message {
   padding: 12px 16px;
   font-size: 12px;
@@ -131,15 +126,12 @@
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
+  .modalfrm-input:focus + & {
+    fill: $accent-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
-.modal-form-agree:checked + .modal-label-agree::before {
-  background-color: $accent-color;
-  background-image: url(../images/modal/iconcheck.svg);
-  background-size: contain;
-  background-origin: border-box;
-  border-color: $accent-color;
-}
 .text-form {
   font-size: 12px;
   line-height: 14px;
@@ -165,6 +157,13 @@
     margin-right: 7px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .modal-form-agree:checked + &::before {
+    background-color: $accent-color;
+    background-image: url(../images/modal/iconcheck.svg);
+    background-size: contain;
+    background-origin: border-box;
+    border-color: $accent-color;
   }
 }
 

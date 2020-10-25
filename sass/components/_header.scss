@@ -113,18 +113,15 @@
 }
 
 .list-icon-header {
+  margin-right: 10px;
   fill: $primary-text-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .header-tel:hover &,
+  .header-mail:hover & {
+    fill: $accent-color;
+  }
 }
-.header-mail:hover .list-icon-header {
-  fill: $accent-color;
-}
-.header-tel:hover .list-icon-header {
-  fill: $accent-color;
-}
-.list-icon-header {
-  margin-right: 10px;
-}
+
 .header-border {
   border-bottom: 1px solid #ececec;
 }

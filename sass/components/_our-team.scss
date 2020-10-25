@@ -10,15 +10,15 @@
     background-color: $accent-color;
   }
 }
-.icon-list-team:hover .team-svg {
-  fill: $footer-hover-color;
-}
 
 .team-svg {
   fill: $svg-team-icon-color;
   width: 20px;
   height: 20px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .icon-list-team:hover & {
+    fill: $footer-hover-color;
+  }
 }
 .list-icon-svg:not(:last-child) {
   margin-right: 10px;
