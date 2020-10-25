@@ -682,14 +682,6 @@ img {
   display: flex;
 }
 
-.team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
 .name {
   text-align: center;
   padding-top: 30px;
@@ -699,7 +691,15 @@ img {
   background-color: white;
 }
 
-.team-profil {
+.name-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.name-profil {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;

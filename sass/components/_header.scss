@@ -9,10 +9,11 @@
 .navigation {
   display: flex;
   align-items: center;
+  &-list {
+    display: flex;
+  }
 }
-.navigation-list {
-  display: flex;
-}
+
 .navigation-second {
   display: flex;
   justify-content: flex-end;

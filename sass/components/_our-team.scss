@@ -63,13 +63,6 @@
   display: flex;
 }
 
-.team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: $title-text-color;
-}
 .name {
   text-align: center;
   padding-top: 30px;
@@ -77,14 +70,21 @@
   padding-left: 30px;
   padding-right: 30px;
   background-color: $footer-hover-color;
-}
-.team-profil {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: $primary-text-color;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 16px;
+  &-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+  }
+  &-profil {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: $primary-text-color;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
 }
